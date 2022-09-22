@@ -1,4 +1,4 @@
-##LESSONS TO COVER THIS ANGULAR E COMMERCE APP
+## LESSONS TO COVER THIS ANGULAR E COMMERCE APP
 
 1. Introduction
 2. Installation of angular app
@@ -15,4 +15,10 @@
 7. push the changes on the git 
 8. Install bootstrap 5.2.1
     nmp i bootstrap@5.2.1
-9. 
+9. Add bootstrap.min.css and boostrap.bundle.min.js in index.html file
+
+
+## STARTING OUR ECOMMERCE APP WITH ANGULAR 
+
+1. Add Header
+    1. Create Components
