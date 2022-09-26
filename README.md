@@ -22,3 +22,12 @@
 
 1. Add Header
     1. Create Components
+    2. create Navbar
+    3. set defualt font-size, family etc in style.css file
+
+2. List of Foods
+    1. create food model - food.ts
+    2. create data.ts
+        1. Add sample food details
+    3. Add images to assets folder
+    4. Create Food Service - Provide sample data to home component
