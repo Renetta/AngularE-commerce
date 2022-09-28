@@ -1,0 +1,14 @@
+<div class="container">
+  <div class="row justify-content-center">
+    <div class=" col-md-6 ">
+      <div class="input-group mb-3">
+        <input #s type="text" class="form-control" placeholder="Search your favorite food"
+        aria-label="Search food" aria-describedby="button-search"
+        (keyup.enter)="searchFood(s.value)" [value]="searchTerm">
+        <button class="btn btn-warning" type="button" id="button-search"
+        (click)="searchFood(s.value)">Search</button>
+      </div>
+    </div>
+  </div>
+</div>
+<app-header [searchItem]="searchTerm" (sendSearchFoodTerm)="searchFood($event)"></app-header>

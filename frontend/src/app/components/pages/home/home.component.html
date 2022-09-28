@@ -1,3 +1,4 @@
+<app-search></app-search>
 <div class="container">
   <div class="row">
     <div class="col-md-4 mb-5" *ngFor="let food of foods; let i = index;">
@@ -8,9 +9,11 @@
             <span class="{{food.favourite ? 'link-danger' : 'link-secondary'}}"> ♥ </span><br>
             <ngb-rating [max]="5" [(rate)]="food.stars" [readonly]="false"></ngb-rating><br>
           </h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+          <p class="card-text">
+            <!-- Some quick example text to build on the card title and make up the bulk of the card's
             content.
-            <br>It takes
+            <br> -->
+            It takes
             <span class="link-secondary">{{food.cookingTime}}mins <i class="bi bi-clock-fill p-2"></i>  </span>
 
           </p>
