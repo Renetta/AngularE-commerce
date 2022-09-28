@@ -31,3 +31,13 @@
         1. Add sample food details
     3. Add images to assets folder
     4. Create Food Service - Provide sample data to home component
+3. Search Option
+    1. create Search component
+    2. Add to home component
+    3. set Header component as Child
+    4. set Search component as parent
+4. List of Tags
+    1. create tag model tag.ts
+    2. create sample tag data in data.ts 
+    3. create tag component
+    4. add methods in food service

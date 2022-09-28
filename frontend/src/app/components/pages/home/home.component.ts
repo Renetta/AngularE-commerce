@@ -15,9 +15,11 @@ export class HomeComponent implements OnInit {
     private activatedRoute: ActivatedRoute
   ) {
     activatedRoute.params.subscribe((params) => {
-      if (params['searchTerm'])
+      if (params['searchTerm']) {
         this.foods = foodService.getAllItemsBySearch(params['searchTerm']);
-      else this.foods = foodService.getAll();
+      } else if (params['tagName']) {
+        this.foods = foodService.getAllItemsByTag(params['tagName']);
+      } else this.foods = foodService.getAll();
     });
   }
 

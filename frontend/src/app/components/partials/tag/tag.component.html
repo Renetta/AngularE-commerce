@@ -1,0 +1,8 @@
+<div class="container">
+  <div class="row mb-3">
+    <div class="col-md-2" *ngFor="let tag of tags">
+      <a routerLink="/tag/{{tag.name}}" class="btn btn-outline-warning" href="#" role="button">{{tag.name}}
+        ({{tag.count}})</a>
+    </div>
+  </div>
+</div>

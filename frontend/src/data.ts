@@ -1,4 +1,5 @@
-import { Food } from "./app/shared/models/Food";
+import { Food } from './app/shared/models/Food';
+import { Tag } from './app/shared/models/Tag';
 
 export const sample_foods: Food[] = [
   {
@@ -10,7 +11,7 @@ export const sample_foods: Food[] = [
     origins: ['Italy'],
     stars: 4.0,
     imageUrl: 'assets/food-1.jpg',
-    tags: ['FastFood', 'Pizza', 'Lunch'],
+    tags: ['FastFood', 'Lunch'],
   },
   {
     id: '2',
@@ -32,7 +33,7 @@ export const sample_foods: Food[] = [
     origins: ['India', 'Pakistan'],
     stars: 1,
     imageUrl: 'assets/food-3.jpg',
-    tags: ['Lunch', 'Biriyani', 'Dinner'],
+    tags: ['Lunch', 'Chicken', 'Dinner'],
   },
   {
     id: '4',
@@ -43,7 +44,7 @@ export const sample_foods: Food[] = [
     origins: ['Qatar', 'UAE'],
     stars: 3,
     imageUrl: 'assets/food-4.jpg',
-    tags: [],
+    tags: ['Lunch', 'Dinner', 'Chicken'],
   },
   {
     id: '5',
@@ -65,6 +66,33 @@ export const sample_foods: Food[] = [
     origins: ['India'],
     stars: 5,
     imageUrl: 'assets/food-6.jpg',
-    tags: [],
+    tags: ['Desert'],
+  },
+];
+
+export const sample_tags: Tag[] = [
+  {
+    name: 'Desert',
+    count: 1,
+  },
+  {
+    name: 'Dinner',
+    count: 3,
+  },
+  {
+    name: 'Lunch',
+    count: 3,
+  },
+  {
+    name: 'Chicken',
+    count: 2,
+  },
+  {
+    name: 'FastFood',
+    count: 2,
+  },
+  {
+    name: 'Burger',
+    count: 1,
   },
 ];
